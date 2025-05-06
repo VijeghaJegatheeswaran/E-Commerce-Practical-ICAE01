@@ -9,7 +9,8 @@ public class OrderLine {
     @Id
     private Long id;
     
-    
+    @Column(nullable = false)
+    private Integer quantity;
     
     @ManyToOne
     @JoinColumn(name = "food_order_id")

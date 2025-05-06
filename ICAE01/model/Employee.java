@@ -9,6 +9,9 @@ import java.util.List;
 public class Employee extends Person {
     @Id
     private int id;
+     
+    @Column(name = "job_position", nullable = false)
+    private String jobPosition;
     
   
     @ManyToMany
