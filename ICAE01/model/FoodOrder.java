@@ -8,8 +8,7 @@ import java.util.List;
 @Table(name = "food_orders")
 public class FoodOrder {
     
-    @Id
-    private Long id;
+    
     
     @Column(name = "order_date")
     private LocalDate orderDate;
