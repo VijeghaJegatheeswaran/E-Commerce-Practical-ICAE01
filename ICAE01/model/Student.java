@@ -10,7 +10,7 @@ public class Student extends Person {
 	private int id;
     
     @Column(name = "academic_degree")
-    private String academicDegree;
+   
     
     @OneToMany(mappedBy = "student")
     private Set<FoodOrder> foodOrders ;
