@@ -8,8 +8,7 @@ import java.util.List;
 @Table(name = "foods")
 public class Food {
     
-    @Id
-    private Long id;
+   
     
     @Column(nullable = false)
     private String name;
